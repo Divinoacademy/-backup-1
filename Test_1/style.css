@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #1D1D1D;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  color: #E5E5E5;
+}
+
+nav a:active {
+  color: #CCC;
+}
+
+.hero {
+  background-image: url('img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #FFC107;
+  color: #FFF;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FFA000;
+}
+
+.btn:active {
+  background-color: #FFA000;
+}
+
+.services {
+  background-color: #FFF;
+  color: #1D1D1D;
+  padding: 2rem;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.services p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.services ul {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.services li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio {
+  background-color: #E5E5E5;
+  color: #1D1D1D;
+  padding: 2rem;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.testimonials {
+  background-color: #FFF;
+  color: #1D1D1D;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem
+}
+.testimonials p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials .testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.testimonials .testimonial img {
+  width: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonials .testimonial h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.testimonials .testimonial p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  background-color: #1D1D1D;
+  color: #FFF;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+form textarea {
+  height: 120px;
+}
+
+form button {
+  background-color: #FFC107;
+  color: #FFF;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  border: none;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #FFA000;
+}
+
+form button:active {
+  background-color: #FFA000;
+}
+
+footer {
+  background-color: #1D1D1D;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+

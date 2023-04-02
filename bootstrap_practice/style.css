@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 64, 255);
+}
+.first-div {
+    background-color: #8ee000;
+    color:  rgba(0, 0, 79,255);
+}
+.special-text {
+    color: orange;
+}
+.container-md {
+    border-radius: 10px ;
+}
+.table-container {
+    width: 100%;
+    overflow-x:scroll;
+}
+.img-container img {
+    width:80%;
+    height: 450px;
+    object-fit: cover;
+}
+.btn-container button, .btn-container div {
+    margin: 10px;
+}
+
